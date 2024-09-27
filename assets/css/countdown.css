@@ -1,0 +1,32 @@
+/* Countdown Container */
+.countdown-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    background: transparent; /* Transparent background */
+}
+
+/* Countdown Text */
+#countdown {
+    font-family: 'Arial', sans-serif; /* Change to any desired font */
+    font-size: 2em;  /* Adjust text size */
+    color: #fff; /* Change text color */
+    background-color: rgba(0, 0, 0, 0.3); /* Semi-transparent background color */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Individual Time Units */
+#countdown span {
+    display: inline-block;
+    min-width: 50px;
+}
+
+/* Responsive for Mobile */
+@media (max-width: 600px) {
+    #countdown {
+        font-size: 1.5em;
+    }
+}
