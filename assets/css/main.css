@@ -1659,3 +1659,17 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+
+
+/*Custom*/
+div.otherGiftsContainer {
+	text-align: center;
+  }
+
+ul.otherGifts {
+list-style-type: none; /* Remove bullets */
+display: inline-block;
+text-align: center;
+padding: 0; /* Remove padding */
+margin: 0; /* Remove margins */
+}
