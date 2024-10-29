@@ -1663,9 +1663,11 @@ input, select, textarea {
 
 /*Custom*/
 .emoji {
-	width: 1em;
-	height: 1em;
-	vertical-align: middle; /* Aligns it with the text */
+    width: 1em;
+    height: 1em;
+    max-width: 16px; /* Set a reasonable max size for mobile */
+    max-height: 16px;
+    vertical-align: middle;
 }
 
 div.otherGiftsContainer {
